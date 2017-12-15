@@ -19,7 +19,9 @@ func main() {
 	fmt.Println("O valor de x é " + xs)
 	fmt.Println("O valor de x é ", x)
 
-	fmt.Printf("O valor de x é %.2f .", x)
+	name := "Fabio Guelfi"
+
+	fmt.Printf("O valor de x é %.2f %s .", x, name)
 
 	a := 1
 	b := 1.999
