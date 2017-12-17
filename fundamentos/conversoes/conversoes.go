@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"strconv"
+	conv "strconv"
 )
 
 func main() {
@@ -19,14 +19,14 @@ func main() {
 	fmt.Println("Teste" + string(97)) // 97 e equivalente a na tabela asc
 
 	//int para string
-	fmt.Println("Teste:", strconv.Itoa(123))
+	fmt.Println("Teste:", conv.Itoa(123))
 
 	//string para int
-	num, _ := strconv.Atoi("7")
+	num, _ := conv.Atoi("7")
 
 	fmt.Println(num - 6)
 
-	b, _ := strconv.ParseBool("true")
+	b, _ := conv.ParseBool("true")
 
 	if b {
 		fmt.Println("verdadeiro")
